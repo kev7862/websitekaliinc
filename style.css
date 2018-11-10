@@ -12,9 +12,19 @@ body{
   color: #fff;
   background-color: none;
 }
+.display-4{
+  font-family: 'Playfair Display SC', serif;
+}
 .writer{
   padding-top: 50px;
 }
+.pro{
+  margin-top: 10em;
+  color: #660066;
+  font-family: 'Life Savers', cursive;
+  font-weight: 700;
+}
+
 
 
 
