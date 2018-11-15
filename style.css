@@ -17,17 +17,47 @@ body{
 }
 .writer{
   padding-top: 50px;
+  font-family: 'Patrick Hand', cursive;
 }
 .pro{
-  margin-top: 10em;
+  margin-top: 5em;
   color: #660066;
   font-family: 'Life Savers', cursive;
   font-weight: 700;
 }
+.ukwala{
+  background: no-repeat center center /cover;
+  width: 100%;
+}
 
+/*-- Heading 4 styling -- */
+.head4{
+  font-family: 'Abel', sans-serif;
+  color: #660066;
+}
+/*-- End of Heading 4 styling -- */
 
+/*-- Heading 3 styling -- */
+.head3{
+  font-family: 'Roboto Slab', serif;
+  color: #660066;
+}
+/*-- End Heading 3 styling -- */
 
+/*-- Paragraph styling -- */
+.para{
+font-family: 'Montserrat', sans-serif;
+color: #660066;
+font-weight: 300;
+}
+/*-- End of styling -- */
 
+/*-- Kenya Flag image styling -- */
+.flag{
+  background: no-repeat center center /cover;
+  width: 100%;
+}
+/*-- End of Kenya Flag image styling -- */
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
