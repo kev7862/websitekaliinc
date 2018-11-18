@@ -59,6 +59,21 @@ font-weight: 300;
 }
 /*-- End of Kenya Flag image styling -- */
 
+.exp{
+  margin-top: 10em;
+  color: #660066;
+}
+
+.jumbotron-fluid{
+  background-color: #000000;
+  padding: 5em;
+}
+
+.jumbo{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
