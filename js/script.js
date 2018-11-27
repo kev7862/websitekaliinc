@@ -1,4 +1,3 @@
-$(document).ready(function(){
 // Typewriter effect section.
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -79,7 +78,5 @@ var TxtType = function(el, toRotate, period) {
     myFlag.on("click", function(){
 
         $(this).toggleClass("animated infinite bounce");
-
-    });
 
     });
