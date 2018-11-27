@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Typewriter effect section.
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -57,4 +58,28 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
 
     };
-    // End of Typewriter section
+
+    // greensock
+    // Hover
+    var pressMe = $(".online")
+    pressMe.hover(function(){
+      $(this).css("transform", "rotate(90deg)");
+    }, function(){
+      $(this).css("transform", "rotate(0)");
+    });
+
+    // Click function
+    var clickMe = $(".btn-outline-primary");
+    clickMe.on("click", function(){
+      alert("Success");
+    });
+
+    //Toggle class
+    var myFlag = $(".circle");
+    myFlag.on("click", function(){
+
+        $(this).toggleClass("animated infinite bounce");
+
+    });
+
+    });
