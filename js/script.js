@@ -61,9 +61,11 @@ var TxtType = function(el, toRotate, period) {
 
     // greensock
     // Hover
-var nyumba = document.getElementsByClassName('nyumba')
-
-TweenLite.to(nyumba, 6, {x: -50});
+var nyumba = document.getElementsByClassName('nyumba');
+    build = document.getElementsByClassName('build');
+//Easing
+TweenMax.to(nyumba, 1, {x: -50, ease:Bounce.easeOut});
+TweenMax.from(build, 1, {y: -20, ease:Bounce.easeOut});
 
 
 
