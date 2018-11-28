@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // Typewriter effect section.
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -60,23 +61,13 @@ var TxtType = function(el, toRotate, period) {
 
     // greensock
     // Hover
-    var pressMe = $(".online")
-    pressMe.hover(function(){
-      $(this).css("transform", "rotate(90deg)");
-    }, function(){
-      $(this).css("transform", "rotate(0)");
-    });
+var nyumba = document.getElementsByClassName('nyumba')
 
-    // Click function
-    var clickMe = $(".btn-outline-primary");
-    clickMe.on("click", function(){
-      alert("Success");
-    });
+TweenLite.to(nyumba, 6, {x: -50});
 
-    //Toggle class
-    var myFlag = $(".circle");
-    myFlag.on("click", function(){
 
-        $(this).toggleClass("animated infinite bounce");
+
+
+
 
     });
