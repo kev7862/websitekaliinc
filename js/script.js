@@ -63,13 +63,48 @@ var TxtType = function(el, toRotate, period) {
     // Hover
 var nyumba = document.getElementsByClassName('nyumba');
     build = document.getElementsByClassName('build');
+    writer = document.getElementsByClassName('writer');
+    tl = new TimelineLite();
 //Easing
-TweenMax.to(nyumba, 1, {x: -50, ease:Bounce.easeOut});
-TweenMax.from(build, 1, {y: -20, ease:Bounce.easeOut});
+tl
+.to(nyumba, 1, {x: -50, autoAlpha: 1, ease:Power1.easeOut})
+.from(build, 1, {y: -30, autoAlpha: 1.5, ease:Power1.easeOut})
+.to(writer, 1, {y: 20, autoAlpha: 2, ease:Bounce.easeOut });
+
+tl.pause();
+
+$(".btnPlay").on("click", function(){
+  tl.play();
+
+  });
+
+  $(".btnPause").on("click", function(){
+    tl.pause();
+});
+
+$(".btnResume").on("click", function(){
+  tl.resume();
+});
+
+$(".btnReverse").on("click", function(){
+  tl.reverse();
+});
+
+$(".btnSpeedUp").on("click", function(){
+  tl.timeScale(8);
+});
+
+$(".btnSlowDown").on("click", function(){
+  tl.timeScale(0);
+});
 
 
+});
 
 
+// SVG section
+//var line1 = document.getElementsByClassName('line1');
 
+//TweenMax.to(line1, 1, {drawSVG: "60%", color: "#000", ease:Bounce.easeOut});
 
-    });
+//animating multiple objects

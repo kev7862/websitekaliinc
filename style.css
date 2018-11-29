@@ -14,6 +14,8 @@ body{
 }
 .display-4{
   font-family: 'Playfair Display SC', serif;
+  margin-bottom: 1em;
+
 }
 .writer{
   padding-top: 50px;
@@ -81,7 +83,7 @@ font-weight: 300;
 
 
 .story{
-  color: color: #660066;
+  color: #660066;
   padding-top: 10em;
   margin-bottom: 10em;
   margin-top: 2em;
@@ -92,6 +94,17 @@ font-weight: 300;
 .holiday{
   background: #fff url('images/backgroundkali.png') no-repeat center center /cover ;
 }
+.skill{
+  margin-top: 5em;
+}
+.level{
+  color: #660066;
+}
+.line1{
+  color: #000;
+  background-color: blue;
+}
+
 
 
 /*---Media Queries --*/
