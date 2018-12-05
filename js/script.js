@@ -70,7 +70,17 @@ TweenMax.from(navbarResponsive, 1, {x: 200, autoAlpha:1});
 
 // ScrollMagic
 var controller = new ScrollMagic.Controller();
-// Loop through each .pro projects container
+
+//pin intro
+var pinIntroScene = new ScrollMagic.Scene({
+  triggerElement: '#intro', triggerHook: 0
+})
+.setPin('#intro')
+.addTo(controller);
+
+
+
+// Loop through each ".pro" projects container
 $('.pro').each(function(){
 
   //build a scene
@@ -81,8 +91,8 @@ $('.pro').each(function(){
   .setClassToggle(this, 'fade-in')
   .addTo(controller);
 
-
 });
+// End of Loop
 
 
 });
