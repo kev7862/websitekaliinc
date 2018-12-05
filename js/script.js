@@ -61,45 +61,32 @@ var TxtType = function(el, toRotate, period) {
 
     // greensock
     // Hover
-var nyumba = document.getElementsByClassName('nyumba');
-    build = document.getElementsByClassName('build');
-    writer = document.getElementsByClassName('writer');
-    tl = new TimelineLite();
+var build = document.getElementsByClassName('build');
+    navbarResponsive = document.getElementById('navbarResponsive')
+
 //Easing
-tl
-.to(nyumba, 1, {x: -50, autoAlpha: 1, ease:Power1.easeOut})
-.from(build, 1, {y: -30, autoAlpha: 1.5, ease:Power1.easeOut})
-.to(writer, 1, {y: 20, autoAlpha: 2, ease:Bounce.easeOut });
+TweenMax.to(build, 1, {y: 50, ease:Bounce.easeOut, delay:1.5});
+TweenMax.from(navbarResponsive, 1, {x: 200, autoAlpha:1});
 
-tl.pause();
+// ScrollMagic
+var controller = new ScrollMagic.Controller();
+// Loop through each .pro projects container
+$('.pro').each(function(){
 
-$(".btnPlay").on("click", function(){
-  tl.play();
+  //build a scene
+  var ourScene = new ScrollMagic.Scene({
+  triggerElement: this, reverse: false
+  })
 
-  });
+  .setClassToggle(this, 'fade-in')
+  .addTo(controller);
 
-  $(".btnPause").on("click", function(){
-    tl.pause();
-});
 
-$(".btnResume").on("click", function(){
-  tl.resume();
-});
-
-$(".btnReverse").on("click", function(){
-  tl.reverse();
-});
-
-$(".btnSpeedUp").on("click", function(){
-  tl.timeScale(8);
-});
-
-$(".btnSlowDown").on("click", function(){
-  tl.timeScale(0);
 });
 
 
 });
+
 
 
 // SVG section

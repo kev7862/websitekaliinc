@@ -26,6 +26,13 @@ body{
   color: #660066;
   font-family: 'Life Savers', cursive;
   font-weight: 700;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+.pro.fade-in{
+  opacity: 1;
+  transform: translateY(0);
 }
 .ukwala{
   background: no-repeat center center /cover;
@@ -99,10 +106,6 @@ font-weight: 300;
 }
 .level{
   color: #660066;
-}
-.line1{
-  color: #000;
-  background-color: blue;
 }
 
 
