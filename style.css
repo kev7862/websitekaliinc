@@ -241,6 +241,49 @@ h2::after {
 
 /* End of Carousel Section --*/
 
+/* -- Footer Begins Here -- */
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.section-description{
+  color: #000;
+  margin-top: 2em;
+}
+
+.section-heading{
+  color: #000;
+}
+
+.form-header{
+  background-color: DodgerBlue;
+  padding: 1em;
+}
+
+.btn-floating{
+  background-color: DodgerBlue;
+  border: 1px solid DodgerBlue;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.fa-user{
+color: grey;
+}
+
+
+/* -- Footer Ends Here --*/
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
