@@ -62,7 +62,8 @@ var TxtType = function(el, toRotate, period) {
     // greensock
     // Hover
 var build = document.getElementsByClassName('build');
-    navbarResponsive = document.getElementById('navbarResponsive')
+    navbarResponsive = document.getElementById('navbarResponsive');
+    lamba = document.getElementsByClassName('lamba');
 
 //Easing
 TweenMax.to(build, 1, {y: 50, ease:Bounce.easeOut, delay:1.5});
@@ -94,9 +95,7 @@ $('.pro').each(function(){
 });
 // End of Loop
 
-
 });
-
 
 
 // SVG section
