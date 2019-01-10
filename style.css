@@ -592,6 +592,18 @@ label{
 /* -- Footer Ends Here --*/
 
 
+/* -- Return-to-top Begins Here --*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+/* -- Back-To-Top Ends Here --*/
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
