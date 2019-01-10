@@ -603,6 +603,27 @@ label{
 
 /* -- Back-To-Top Ends Here --*/
 
+/* -- About Us Section -- */
+.parallax {
+  /* The image used */
+  background-image: url("images/green-orange-and-yellow-ink_4460x4460.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.kuhusu{
+  font-family: 'Special Elite', cursive;
+}
+
+/* -- End of About Us Section -->
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -614,6 +635,8 @@ label{
 @media (max-width: 576px) {
 
 }
+
+
 
 
 /*---Firefox Bug Fix --*/
@@ -657,6 +680,8 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
 
 
 
