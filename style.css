@@ -176,6 +176,8 @@ ul {
   transform: translateY(50px);
   transition: all 1s ease-out;
 }
+
+
 #main{
   position: relative;
   background-color: #fff;
