@@ -65,6 +65,8 @@ var build = document.getElementsByClassName('build');
     navbarResponsive = document.getElementById('navbarResponsive');
     lamba = document.getElementsByClassName('lamba');
 
+
+
 //Easing
 TweenMax.to(build, 1, {y: 50, ease:Bounce.easeOut, delay:1.5});
 TweenMax.from(navbarResponsive, 1, {x: 200, autoAlpha:1});
@@ -106,6 +108,7 @@ $(window).scroll(function () {
    });
 
    $('#back-to-top').tooltip('show');
+
 
 });
 

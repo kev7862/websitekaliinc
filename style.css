@@ -113,6 +113,7 @@ ul {
 .klass{
   color: #000;
   text-align: start;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pricing .card-title {
@@ -169,12 +170,19 @@ ul {
 
 .pro{
   margin-top: 5em;
-  color: #660066;
-  font-family: 'Life Savers', cursive;
   font-weight: 700;
   opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out;
+}
+.tofauti{
+  color: #660066;
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+}
+.see{
+  color: #660066;
+  font-family: 'Life Savers', cursive;
 }
 
 
@@ -622,9 +630,111 @@ label{
 }
 .kuhusu{
   font-family: 'Special Elite', cursive;
+  padding-bottom: 3em;
 }
 
 /* -- End of About Us Section -->
+
+/* -- Our Services Section -- */
+
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+section{
+	padding: 60px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+
+.mkubwa{
+  color: #000;
+}
+.karatasi{
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+}
+.strong{
+  color: #007b5e;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:2rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.fa-css3{
+  color:#2163af;
+  font-size: 2em;
+}
+.fa-globe-africa{
+  color:#007b5e;
+  font-size: 2em;
+}
+.fa-adobe{
+  color: red;
+  font-size: 2em;
+}
+.fa-at{
+  color:#007b5e;
+  font-size: 2em;
+}
+.fa-spider{
+  color:#007b5e;
+  font-size: 2em;
+}
+.fa-blogger{
+  color: orange;
+  font-size: 2em;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+/* -- End of Our Services Section --*/
 
 
 /*---Media Queries --*/
