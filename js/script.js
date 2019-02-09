@@ -1,3 +1,17 @@
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBl8Zo8BMF1QXNmXDtQ5hbWX0beTObXYOo",
+    authDomain: "contactform-dc64b.firebaseapp.com",
+    databaseURL: "https://contactform-dc64b.firebaseio.com",
+    projectId: "contactform-dc64b",
+    storageBucket: "contactform-dc64b.appspot.com",
+    messagingSenderId: "815324356320"
+  };
+  firebase.initializeApp(config);
+
+  //Reference Messages Collection.
+  var messagesRef = firebase.database().ref('messages');
+
 $(document).ready(function(){
 // Typewriter effect section.
 var TxtType = function(el, toRotate, period) {
@@ -109,8 +123,31 @@ $(window).scroll(function () {
 
    $('#back-to-top').tooltip('show');
 
+   //Contact form
+
+   document.getElementById('mainForm').addEventListener('submit', submitForm);
+
+   function submitForm(e){
+     e.preventDefault();
+
+     var firstName = getInputVal('firstName');
+     var lastName = getInputVal('lastName');
+     var emailPlace = getInputVal('emailPlace');
+     var phoneNumber = getInputVal('phoneNumber');
+     var websiteAddress = getInputVal('websiteAddress');
+     var kitabu = getInputVal('kitabu');
+
+     //save data in firebase
+   saveMessage(firstName, lastName, emailPlace, phoneNumber, websiteAddress, kitabu);
+
+   }
+
+
+   //End of contact form
+
 
 });
+
 
 
 // SVG section
@@ -119,3 +156,22 @@ $(window).scroll(function () {
 //TweenMax.to(line1, 1, {drawSVG: "60%", color: "#000", ease:Bounce.easeOut});
 
 //animating multiple objects
+
+// Function to get form values
+function getInputVal(id){
+  return document.getElementById('id').value;
+}
+
+
+// Save Messages to firebase
+function saveMessage(firstName, lastName, emailPlace, phoneNumber, websiteAddress, kitabu){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    firstName: firstName,
+    lastName: lastName,
+    emailPlace: emailPlace,
+    phoneNumber: phoneNumber,
+    websiteAddress: websiteAddress,
+    kitabu: kitabu
+  });
+}
