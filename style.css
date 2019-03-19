@@ -176,7 +176,7 @@ ul {
   transition: all 1s ease-out;
 }
 .tofauti{
-  color: #83644f;
+  color: #403a53;
   font-family: 'Noto Serif', serif;
   font-weight: 400;
 }
@@ -202,14 +202,14 @@ ul {
 /*-- Heading 4 styling -- */
 .head4{
   font-family: 'Abel', sans-serif;
-  color: #ff6600;
+  color: #403a53;
 }
 /*-- End of Heading 4 styling -- */
 
 /*-- Heading 3 styling -- */
 .head3{
   font-family: 'Roboto Slab', serif;
-  color: #83644f;
+  color: #660066;
 }
 /*-- End Heading 3 styling -- */
 
@@ -584,8 +584,9 @@ padding-left: 15px;
   font-size: 2em;
 }
 
-*{
+* p{
     box-sizing: border-box;
+    color: #000;
 }
 
 .fa-map-marker-alt:before {
@@ -636,9 +637,103 @@ label{
 
 /* -- End of About Us Section -->
 
+
 /* -- Our Services Section -- */
 
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+.badu {
+  color: #222727;
+}
+.text{
+	color: #000;
+	text-align: center;
+}
+
+
+.folded-corner:hover .text{
+	visibility: visible;
+	color: #000000;
+}
+.Services-tab{
+	margin-top:20px;
+
+
+}
+
+.items-title{
+  color: #000;
+}
+
+/*
+  nav link items
+*/
+.folded-corner{
+  padding: 25px 25px;
+  position: relative;
+  font-size: 90%;
+  text-decoration: none;
+  color: #000;
+  background: #000;
+  transition: all ease .5s;
+  border: 1px solid #000;
+}
+.folded-corner:hover{
+	background-color: rgba(31,181,172,.9);
+}
+
+/*
+  paper fold corner
+*/
+
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #000;
+  transition: all ease .3s;
+}
+
+/*
+  on li hover make paper fold larger
+*/
+.folded-corner:hover:before {
+	background-color: #000;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+
+}
+
+.service_tab_1{
+	background-color: #fff;
+  color: 000;
+}
+.service_tab_1:hover .fa-icon-image{
+    color: #000;
+    transform: rotate(360deg) scale(1.5);
+}
+
+
+.fa-icon-image{
+	color: rgba(31,181,172,.9);
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    text-rendering: auto;
+    transition: all .65s linear 0s;
+    text-align: center;
+    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+}
+
+
+/*@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 section{
 	padding: 60px 0;
 }
@@ -739,7 +834,7 @@ section .section-title{
   margin-bottom: 5em;
 }
 
-/* -- End of Our Services Section --*/
+*//* -- End of Our Services Section --*/
 
 /* -- Quote-section -- */
 .mwili {
