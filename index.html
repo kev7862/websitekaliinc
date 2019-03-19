@@ -11,10 +11,13 @@
 	<!-- Jquery -->
 
 	<script src="js/jquery-1.js"></script>
+
 	<!-- GreenSock TweenMax -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
 		<script src="js/script.js"></script>
+		<script src="bootstrap-progressbar/assets/js/jquery.appear.js"></script>
+		<script src="bootstrap-progressbar/assets/js/jquery.countTo.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -59,24 +62,17 @@
 		</li>
 
 		<li class="nav-item">
-			<a class="nav-link" href="#project-section">Projects</a>
+			<a class="nav-link" href="#project1">Projects</a>
 		</li>
 
 		<li class="nav-item">
-			<a class="nav-link" href="#ourwork-section">Testimonials</a>
+			<a class="nav-link" href="#ourwork-section">OurWork</a>
 		</li>
 
 		<li class="nav-item">
-			<a class="nav-link" href="#service-section">Services</a>
+			<a class="nav-link" href="#dabal">Services</a>
 		</li>
 
-    <li class="nav-item">
-      <a class="nav-link" href="#hosting-section">Hosting</a>
-    </li>
-
-		<li class="nav-item">
-			<a class="nav-link" href="quote.html">Get Quote</a>
-		</li>
 
 		<li class="nav-item">
 			<a class="nav-link" href="#contact-section">Contact</a>
@@ -123,10 +119,11 @@
 <!--- Supa Price Project Section -->
 <div class="container-fluid" id="main">
 <div class="container pro"  id="project1">
+	<div class="container">
 	<div class="row">
 		<div class="col-12 pro">
-			<h1 class="display-4 brand tofauti" id="project-section">Projects</h1>
-			<i class="fas fa-ellipsis-h" style="font-size:48px;color:#593693;"></i>
+			<h2 class="display-4 brand tofauti" id="project-section">Projects</h2>
+
 			<br><br><br>
 
 			<h4 class="see">Want to See More? <a href="mailto:websitekaliinc@gmail.com">Email Us</a></h4>
@@ -139,12 +136,13 @@
 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<h3 class="head3">Supa Price</h3>
 			<h4 class="head4">Technology Used: Javascript, Ember.Js</h4>
-			<p class="para">Supa price is a prototype web application that we developed that allows users search and compare prices for various products in our selected
+			<p class="para">Supa price is a prototype web application we developed that allows users search and compare prices for various products in our selected
 				supermarket chain-stores, thereby allowing shoppers to judge for themselves which store best suits their pockets.</p>
 				<a href="https://supaprice.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-primary">View Site</button></a>
 		</div>
 
 	</div>
+</div>
 
 </div>
 <!-- End of Supa Price Project section -->
@@ -200,7 +198,7 @@
 			<div class="row">
 				<div class="col-12">
 
-						<h1 class="display-4 planner">About Us</h1>
+						<h2>About Us</h2>
 
 				</div>
 
@@ -211,7 +209,7 @@
 		<div class=" container parallax"></div>
 
 <div class="container kuhusu pro" style="height:auto;font-size:36px; opacity: 1; color: #1b1319; margin-top: 5em;" >
-Website Kali Inc provides digital business solution that makes it unique in the industry. With our belief that the internet media should be linked to core marketing practices, we help companies to seamlessly integrate websites to their core business. Get 24/7 support on web design, logo design, business card design, company profiles and much more. We work to continuously provide complete website solution to our satisfied clients.
+Website Kali Inc provides digital business solution that makes it unique in the industry. With our belief that the internet media should be linked to core marketing practices, we help companies to seamlessly integrate websites to their core business.
 </div>
 
 		<!-- End of About Us -->
@@ -261,9 +259,23 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 		<!-- End of Carousel -- >
 
 		<!-- Our Services Section -->
+		<div class="container pro" id="dabal">
 <div class="container">
 	<div class="row">
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab ">
+		<div class="col-12">
+			<h2>Which Services Do You Need?</h2>
+			<h5 class="matopeni">Here at Websitekali Inc we offer a wide range of Services. For Inquiries Call +254721538979 / 0751229582 or Email: info@websitekali.co.ke</h5>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab ">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fab fa-dev" style="font-size: 5em; color:#008279;"></i>
@@ -274,38 +286,38 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 				 Website Kali Inc builds beautiful, modern, responsive websites that are stunning and affordable.
 					</p>
 				</div>
-<a href="#pricing-section"><button type="button" class="btn btn-danger btn-rounded" style="background-color: #3e5d4a; border-color: #3e5d4a; margin-top: 4em;">View Prices</button></a>
+<a href="#pricing-section"><button type="button" class="btn btn-danger btn-rounded" style="background-color: #3e5d4a; border-color: #3e5d4a; margin-top: 3em;">View Prices</button></a>
 			</div>
 	    </div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fas fa-camera-retro" style="color: #a09ba4; font-size: 5em;"></i>
 						<p class="item-title">
-							<h3 class="badu">High Definition Photography</h3>
+							<h3 class="badu">HD Photography</h3>
 						</p><!-- /.item-title -->
 						<p>
 							From staff portraits, to photos of your products, premises or equipment, get stunning high definition imagery to be used on your website and other marketing materials.
 					</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="background-color: #989590; border-color: #d1cbc0;">Call us Now!</button>
+				<button type="button" class="btn btn-danger btn-rounded" style="background-color: #989590; border-color: #d1cbc0;" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke">Call us Now!</button>
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fab fa-html5" style="font-size: 5em; color: orange;"></i>
 						<p class="item-title">
-							<h3 class="badu">Coding crush course</h3>
+							<h3 class="badu">Coding crash-course</h3>
 						</p><!-- /.item-title -->
 					<p>
 						We offer private courses on demand in HTML5, CSS3 & Javascript
 					</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 6em; background-color: orange; border-color: orange;">Get in touch</button>
+				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 5em; background-color: orange; border-color: orange;" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke">Get in touch</button>
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fab fa-adobe" style="color: red; font-size: 5em;"></i>
@@ -316,10 +328,10 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 						Logo design, company profiles, business cards and more - we design them all.
 					</p>
 				</div>
-					<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 6em;">Call us Now!</button>
+					<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 4em;" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke">Call us Now!</button>
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 			<div class="text">
 				<i class="fas fa-globe-africa" style="font-size: 5em; color:#34e6d9;"></i>
@@ -330,10 +342,11 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 						Want to sell your products online? Call us today and Lets discuss your business
 					</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 6em;">Call Now!</button>
+				<button type="button" class="btn btn-danger btn-rounded titles" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke" style="margin-top: 6em; background-color:#2bb9ae; border-color:#2bb9ae;">Get Quote</button>
+
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fas fa-mobile-alt" style="color: #b3b14b; font-size: 5em;"></i>
@@ -344,10 +357,10 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 						Do you have a project in mind, or need assistance completing a current one? Lets chat and get it online
 					</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 2em;">Lets chat</button>
+				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 2em; background-color:#b3b14b; border-color:#b3b14b;" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke">Lets chat</button>
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 				<div class="folded-corner service_tab_1">
 					<div class="text">
 						<i class="fas fa-blog" style="font-size: 5em; color: #76a594;"></i>
@@ -355,13 +368,13 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 								<h3 class="badu">Blogs</h3>
 							</p><!-- /.item-title -->
 						<p>
-							Get value for your money today, Get a responsive and affordable blog, view it on any device
+							Get value for your money today, own a responsive and affordable blog, view it on any device
 						</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 4em;">Lets discuss it</button>
+				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 4em; background-color:#7a9dab; border-color:#7a9dab;" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / Email: info@websitekali.co.ke">Lets discuss it!</button>
 			</div>
 		</div>
-		<div class="col-md-3 mb-3 d-flex align-items-stretch Services-tab item">
+		<div class="col-md-6 col-lg-3 mb-3 d-flex align-items-stretch Services-tab item">
 			<div class="folded-corner service_tab_1">
 				<div class="text">
 					<i class="fab fa-searchengin" style="font-size: 5em; color:#6895c8;"></i>
@@ -372,11 +385,40 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 						SEO (Search Engine Optimisation) helps your website show up on the first page of Google. Improving your sites SEO increases traffic
 					</p>
 				</div>
-				<button type="button" class="btn btn-danger btn-rounded" style="margin-top: 1em;">Learn more</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#basicExampleModal" style="margin-top: 1em;">
+				  Learn More
+				</button>
 			</div>
 
 		</div>
 	</div>
+</div>
+</div>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title bread" id="exampleModalLabel">SEO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Search engine optimization (SEO) is the process of affecting the online visibility of a website or a web page in a web search engine's unpaid results—often referred to as "natural", "organic", or "earned" results. In general, the earlier (or higher ranked on the search results page), and more frequently a website appears in the search results list, the more visitors it will receive from the search engine's users; these visitors can then be converted into customers.[1] SEO may target different kinds of search, including image search, video search, academic search, news search, and industry-specific vertical search engines. SEO differs from local search engine optimization in that the latter is focused on optimizing a business' online presence so that its web pages will be displayed by search engines when a user enters a local search for its products or services. The former instead is more focused on national or international searches.
+
+As an Internet marketing strategy, SEO considers how search engines work, the computer programmed algorithms which dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. Optimizing a website may involve editing its content, adding content, doing HTML, and associated coding to both increase its relevance to specific keywords and to remove barriers to the indexing activities of search engines. Promoting a site to increase the number of backlinks, or inbound links, is another SEO tactic. By May 2015, mobile search had surpassed desktop search.[3] In 2015, it was reported that Google is developing and promoting mobile search as a key feature within future products. In response, many brands are beginning to take a different approach to their Internet marketing strategies.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -391,7 +433,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 	<div class="row">
 		<div class="col-12">
 
-				<h1 class="display-4 planner">Choose A Plan</h1>
+				<h2>Choose A Plan</h2>
 
 		</div>
 
@@ -423,7 +465,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times" style="color: LightGray;"></i></span>Free domain</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times" style="color: LightGray;"></i></span>google Analytics</li>
             </ul>
-            <a href="#order" class="btn btn-block btn-primary text-uppercase">Order Now</a>
+            <a class="btn btn-block btn-primary text-uppercase"  data-toggle="popover" data-content="Talk to Kevin: +254721538979 / 0751229582 or Email: info@websitekali.co.ke">Order Now</a>
           </div>
         </div>
       </div>
@@ -432,7 +474,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Standard</h5>
-            <h6 class="card-price text-center kati">Ksh 24,999<span class="period"></span></h6>
+            <h6 class="card-price text-center kati">Ksh 20,999<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Timeline - 8 to 10 Days</li>
@@ -440,11 +482,11 @@ Website Kali Inc provides digital business solution that makes it unique in the 
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Free Hosting for 1Yr</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Upto 10 pages</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Animation</li>
-              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>free .co.ke domain</li>
-              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Blog</li>
+							<li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>SEO Enabled</li>
+              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Live Chat Messenger</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times" style="color: LightGray;"></i></span>Google Analytics</li>
             </ul>
-            <a href="#order" class="btn btn-block btn-primary text-uppercase">Order Now</a>
+            <a class="btn btn-block btn-primary text-uppercase"  data-toggle="popover" data-content="Talk to Kevin: +254721538979 / 0751229582 or Email: info@websitekali.co.ke">Order Now</a>
           </div>
         </div>
       </div>
@@ -458,14 +500,14 @@ Website Kali Inc provides digital business solution that makes it unique in the 
             <ul class="fa-ul">
               <li class="klass"><span class="fa-li"><i class="fas fa-check"style="color: #000;"></i></span>Timeline - 8 - 10 Days</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>24/7 support</li>
-              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Free .co.ke Domain</li>
+              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>SEO Enabled</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Free Hosting upto 1Yr</li>
-              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Custom Logo</li>
+              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Live Chat Messenger</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Blog</li>
-              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Animation</li>
+              <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Free Domain</li>
               <li class="klass"><span class="fa-li"><i class="fas fa-check" style="color: #000;"></i></span>Google Analytics</li>
             </ul>
-            <a href="#order" class="btn btn-block btn-primary text-uppercase">Order Now</a>
+            <a class="btn btn-block btn-primary text-uppercase" data-toggle="popover" data-content="Talk to Kevin: +254721538979 / 0751229582 or Email: info@websitekali.co.ke">Order Now</a>
           </div>
         </div>
       </div>
@@ -474,58 +516,6 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 </section>
 <!-- End of Pricing Section -->
 
-
-<!--- Skill Section -->
-<div class="container skill pro">
-	<div class="row">
-		<div class="col-12">
-			<h1 class="display-4 level">Our Skill Level In Software</h1>
-
-		</div>
-
-		<div class="col-12 svg1 pro">
-
-					<svg class="continue" id="sv" version="1.1" viewBox="1.0 0.0 960.0 720.0" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><clipPath id="p.0"><path d="m0 0l960.0 0l0 720.0l-960.0 0l0 -720.0z" clip-rule="nonzero"/></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l960.0 0l0 720.0l-960.0 0z" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 192.67455l560.0315 3.3700714" fill-rule="evenodd"/><path stroke="#ff0000" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 192.67455l560.0315 3.3700714" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 261.22833l598.7401 0" fill-rule="evenodd"/><path stroke="#666666" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 261.22833l598.7401 0" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 323.3727l559.33856 -2.015747" fill-rule="evenodd"/><path stroke="#ff00ff" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 323.3727l559.33856 -2.015747" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 385.51706l598.7401 0" fill-rule="evenodd"/><path stroke="#ffff00" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 385.51706l598.7401 0" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 459.11548l557.8268 -1.3543091" fill-rule="evenodd"/><path stroke="#000000" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 459.11548l557.8268 -1.3543091" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 513.0105l553.2598 0.85040283" fill-rule="evenodd"/><path stroke="#00ff00" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 513.0105l553.2598 0.85040283" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m166.73753 576.0l598.7401 0" fill-rule="evenodd"/><path stroke="#783f04" stroke-width="12.0" stroke-linejoin="round" stroke-linecap="butt" d="m166.73753 576.0l598.7401 0" fill-rule="evenodd"/><path fill="#000000" fill-opacity="0.0" d="m86.44357 172.39108l64.81889 0l0 40.566925l-64.81889 0z" fill-rule="evenodd"/><path fill="#000000" d="m95.97482 195.5142l1.59375 -0.21875q0.078125 1.53125 0.578125 2.109375q0.515625 0.5625 1.421875 0.5625q0.65625 0 1.140625 -0.296875q0.484375 -0.3125 0.65625 -0.828125q0.1875 -0.53125 0.1875 -1.6875l0 -9.203125l1.765625 0l0 9.109375q0 1.671875 -0.40625 2.59375q-0.40625 0.921875 -1.28125 1.40625q-0.875 0.484375 -2.0625 0.484375q-1.75 0 -2.6875 -1.015625q-0.9375 -1.015625 -0.90625 -3.015625zm8.765625 3.796875l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875zm13.865448 5.484375l-5.171875 -13.359375l1.921875 0l3.46875 9.703125q0.421875 1.171875 0.703125 2.1875q0.3125 -1.09375 0.71875 -2.1875l3.609375 -9.703125l1.796875 0l-5.234375 13.359375l-1.8125 0zm7.162323 0l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m0 365.32547l182.55118 0l0 49.007874l-182.55118 0z" fill-rule="evenodd"/><path fill="#000000" d="m10.390625 392.24545l0 -13.359375l2.65625 0l3.15625 9.453125q0.4375 1.328125 0.640625 1.984375q0.234375 -0.734375 0.703125 -2.140625l3.203125 -9.296875l2.375 0l0 13.359375l-1.703125 0l0 -11.171875l-3.875 11.171875l-1.59375 0l-3.859375 -11.375l0 11.375l-1.703125 0zm19.353302 0l0 -5.65625l-5.15625 -7.703125l2.15625 0l2.640625 4.03125q0.71875 1.125 1.34375 2.265625q0.609375 -1.046875 1.46875 -2.359375l2.578125 -3.9375l2.0625 0l-5.328125 7.703125l0 5.65625l-1.765625 0zm8.084198 -4.296875l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -1.0 0.578125 -1.875q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.09375l-1.6875 0.125q-0.140625 -1.265625 -0.9375 -1.90625q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.71875 0.53125 1.171875q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625zm23.162323 2.859375q1.234375 0.859375 2.265625 1.25l-0.515625 1.21875q-1.4375 -0.515625 -2.875 -1.625q-1.484375 0.828125 -3.28125 0.828125q-1.8125 0 -3.296875 -0.875q-1.46875 -0.875 -2.265625 -2.453125q-0.796875 -1.59375 -0.796875 -3.578125q0 -1.984375 0.796875 -3.59375q0.8125 -1.625 2.28125 -2.46875q1.484375 -0.859375 3.328125 -0.859375q1.84375 0 3.328125 0.890625q1.484375 0.875 2.265625 2.453125q0.78125 1.578125 0.78125 3.5625q0 1.65625 -0.5 2.96875q-0.5 1.3125 -1.515625 2.28125zm-3.890625 -2.25q1.53125 0.421875 2.515625 1.28125q1.5625 -1.421875 1.5625 -4.28125q0 -1.625 -0.546875 -2.828125q-0.546875 -1.21875 -1.609375 -1.875q-1.0625 -0.671875 -2.390625 -0.671875q-1.96875 0 -3.28125 1.359375q-1.296875 1.34375 -1.296875 4.03125q0 2.59375 1.28125 4.0q1.296875 1.390625 3.296875 1.390625q0.953125 0 1.78125 -0.359375q-0.828125 -0.53125 -1.75 -0.765625l0.4375 -1.28125zm8.198929 3.6875l0 -13.359375l1.78125 0l0 11.78125l6.5625 0l0 1.578125l-8.34375 0zm14.199646 0.234375l3.875 -13.8125l1.3125 0l-3.859375 13.8125l-1.328125 0zm11.788483 -0.234375l0 -13.359375l1.8125 0l7.015625 10.484375l0 -10.484375l1.6875 0l0 13.359375l-1.8125 0l-7.015625 -10.5l0 10.5l-1.6875 0zm12.957321 -6.5q0 -3.328125 1.78125 -5.203125q1.78125 -1.890625 4.609375 -1.890625q1.84375 0 3.328125 0.890625q1.484375 0.875 2.265625 2.46875q0.78125 1.578125 0.78125 3.578125q0 2.03125 -0.828125 3.640625q-0.8125 1.59375 -2.3125 2.421875q-1.5 0.828125 -3.25 0.828125q-1.875 0 -3.359375 -0.90625q-1.484375 -0.921875 -2.25 -2.5q-0.765625 -1.578125 -0.765625 -3.328125zm1.8125 0.015625q0 2.421875 1.296875 3.8125q1.296875 1.390625 3.265625 1.390625q2.0 0 3.28125 -1.40625q1.28125 -1.40625 1.28125 -3.984375q0 -1.625 -0.546875 -2.84375q-0.546875 -1.21875 -1.609375 -1.875q-1.0625 -0.671875 -2.375 -0.671875q-1.890625 0 -3.25 1.296875q-1.34375 1.28125 -1.34375 4.28125zm12.636429 2.1875l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -1.0 0.578125 -1.875q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.09375l-1.6875 0.125q-0.140625 -1.265625 -0.9375 -1.90625q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.71875 0.53125 1.171875q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625zm23.162323 2.859375q1.234375 0.859375 2.265625 1.25l-0.515625 1.21875q-1.4375 -0.515625 -2.875 -1.625q-1.484375 0.828125 -3.28125 0.828125q-1.8125 0 -3.296875 -0.875q-1.46875 -0.875 -2.265625 -2.453125q-0.796875 -1.59375 -0.796875 -3.578125q0 -1.984375 0.796875 -3.59375q0.8125 -1.625 2.28125 -2.46875q1.484375 -0.859375 3.328125 -0.859375q1.84375 0 3.328125 0.890625q1.484375 0.875 2.265625 2.453125q0.78125 1.578125 0.78125 3.5625q0 1.65625 -0.5 2.96875q-0.5 1.3125 -1.515625 2.28125zm-3.890625 -2.25q1.53125 0.421875 2.515625 1.28125q1.5625 -1.421875 1.5625 -4.28125q0 -1.625 -0.546875 -2.828125q-0.546875 -1.21875 -1.609375 -1.875q-1.0625 -0.671875 -2.390625 -0.671875q-1.96875 0 -3.28125 1.359375q-1.296875 1.34375 -1.296875 4.03125q0 2.59375 1.28125 4.0q1.296875 1.390625 3.296875 1.390625q0.953125 0 1.78125 -0.359375q-0.828125 -0.53125 -1.75 -0.765625l0.4375 -1.28125zm8.198929 3.6875l0 -13.359375l1.78125 0l0 11.78125l6.5625 0l0 1.578125l-8.34375 0z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m32.11286 297.86615l119.149605 0l0 49.007874l-119.149605 0z" fill-rule="evenodd"/><path fill="#000000" d="m41.08161 324.78613l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875zm10.037323 5.484375l0 -13.359375l1.8125 0l7.015625 10.484375l0 -10.484375l1.6875 0l0 13.359375l-1.8125 0l-7.015625 -10.5l0 10.5l-1.6875 0zm13.488571 0l0 -13.359375l4.609375 0q1.546875 0 2.375 0.203125q1.140625 0.25 1.953125 0.953125q1.0625 0.890625 1.578125 2.28125q0.53125 1.390625 0.53125 3.171875q0 1.515625 -0.359375 2.703125q-0.359375 1.171875 -0.921875 1.9375q-0.546875 0.765625 -1.203125 1.21875q-0.65625 0.4375 -1.59375 0.671875q-0.9375 0.21875 -2.140625 0.21875l-4.828125 0zm1.765625 -1.578125l2.859375 0q1.3125 0 2.0625 -0.234375q0.75 -0.25 1.203125 -0.703125q0.625 -0.625 0.96875 -1.6875q0.359375 -1.0625 0.359375 -2.578125q0 -2.09375 -0.6875 -3.21875q-0.6875 -1.125 -1.671875 -1.5q-0.703125 -0.28125 -2.28125 -0.28125l-2.8125 0l0 10.203125zm11.738571 1.578125l0 -13.359375l5.921875 0q1.78125 0 2.703125 0.359375q0.9375 0.359375 1.484375 1.28125q0.5625 0.90625 0.5625 2.015625q0 1.40625 -0.921875 2.390625q-0.921875 0.96875 -2.84375 1.234375q0.703125 0.34375 1.078125 0.671875q0.765625 0.703125 1.453125 1.765625l2.328125 3.640625l-2.21875 0l-1.765625 -2.78125q-0.78125 -1.203125 -1.28125 -1.828125q-0.5 -0.640625 -0.90625 -0.890625q-0.390625 -0.265625 -0.796875 -0.359375q-0.296875 -0.078125 -0.984375 -0.078125l-2.046875 0l0 5.9375l-1.765625 0zm1.765625 -7.453125l3.796875 0q1.21875 0 1.890625 -0.25q0.6875 -0.265625 1.046875 -0.8125q0.359375 -0.546875 0.359375 -1.1875q0 -0.953125 -0.6875 -1.5625q-0.6875 -0.609375 -2.1875 -0.609375l-4.21875 0l0 4.421875zm11.144821 0.953125q0 -3.328125 1.78125 -5.203125q1.78125 -1.890625 4.609375 -1.890625q1.84375 0 3.328125 0.890625q1.484375 0.875 2.265625 2.46875q0.78125 1.578125 0.78125 3.578125q0 2.03125 -0.828125 3.640625q-0.8125 1.59375 -2.3125 2.421875q-1.5 0.828125 -3.25 0.828125q-1.875 0 -3.359375 -0.90625q-1.484375 -0.921875 -2.25 -2.5q-0.765625 -1.578125 -0.765625 -3.328125zm1.8125 0.015625q0 2.421875 1.296875 3.8125q1.296875 1.390625 3.265625 1.390625q2.0 0 3.28125 -1.40625q1.28125 -1.40625 1.28125 -3.984375q0 -1.625 -0.546875 -2.84375q-0.546875 -1.21875 -1.609375 -1.875q-1.0625 -0.671875 -2.375 -0.671875q-1.890625 0 -3.25 1.296875q-1.34375 1.28125 -1.34375 4.28125zm13.527054 6.484375l0 -13.359375l1.765625 0l0 13.359375l-1.765625 0zm4.886429 0l0 -13.359375l4.609375 0q1.546875 0 2.375 0.203125q1.140625 0.25 1.953125 0.953125q1.0625 0.890625 1.578125 2.28125q0.53125 1.390625 0.53125 3.171875q0 1.515625 -0.359375 2.703125q-0.359375 1.171875 -0.921875 1.9375q-0.546875 0.765625 -1.203125 1.21875q-0.65625 0.4375 -1.59375 0.671875q-0.9375 0.21875 -2.140625 0.21875l-4.828125 0zm1.765625 -1.578125l2.859375 0q1.3125 0 2.0625 -0.234375q0.75 -0.25 1.203125 -0.703125q0.625 -0.625 0.96875 -1.6875q0.359375 -1.0625 0.359375 -2.578125q0 -2.09375 -0.6875 -3.21875q-0.6875 -1.125 -1.671875 -1.5q-0.703125 -0.28125 -2.28125 -0.28125l-2.8125 0l0 10.203125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m19.766405 235.64043l143.84251 0l0 49.00786l-143.84251 0z" fill-rule="evenodd"/><path fill="#000000" d="m29.297655 258.76355l1.59375 -0.21875q0.078125 1.53125 0.578125 2.109375q0.515625 0.5625 1.4218731 0.5625q0.65625 0 1.140625 -0.296875q0.484375 -0.3125 0.65625 -0.828125q0.1875 -0.53125 0.1875 -1.6875l0 -9.203125l1.765625 0l0 9.109375q0 1.671875 -0.40625 2.59375q-0.40625 0.921875 -1.28125 1.40625q-0.875 0.484375 -2.0625 0.484375q-1.7499981 0 -2.687498 -1.015625q-0.9375 -1.015625 -0.90625 -3.015625zm8.765623 3.796875l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875zm13.865448 5.484375l-5.171875 -13.359375l1.921875 0l3.46875 9.703125q0.421875 1.171875 0.703125 2.1875q0.3125 -1.09375 0.71875 -2.1875l3.609375 -9.703125l1.796875 0l-5.234375 13.359375l-1.8125 0zm7.162323 0l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875zm9.459198 1.1875l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -1.0 0.578125 -1.875q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.09375l-1.6875 0.125q-0.140625 -1.265625 -0.9375 -1.90625q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.71875 0.53125 1.171875q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625zm22.568573 -0.390625l1.765625 0.453125q-0.5625 2.171875 -2.0 3.328125q-1.4375 1.140625 -3.53125 1.140625q-2.15625 0 -3.515625 -0.875q-1.34375 -0.890625 -2.0625 -2.546875q-0.703125 -1.671875 -0.703125 -3.59375q0 -2.078125 0.796875 -3.625q0.796875 -1.5625 2.265625 -2.359375q1.484375 -0.8125 3.25 -0.8125q2.0 0 3.359375 1.015625q1.375 1.015625 1.90625 2.875l-1.734375 0.40625q-0.46875 -1.453125 -1.359375 -2.109375q-0.875 -0.671875 -2.203125 -0.671875q-1.546875 0 -2.578125 0.734375q-1.03125 0.734375 -1.453125 1.984375q-0.421875 1.234375 -0.421875 2.5625q0 1.703125 0.5 2.96875q0.5 1.265625 1.546875 1.90625q1.046875 0.625 2.265625 0.625q1.484375 0 2.515625 -0.859375q1.03125 -0.859375 1.390625 -2.546875zm3.9729462 4.6875l0 -13.359375l5.921875 0q1.78125 0 2.703125 0.359375q0.9375 0.359375 1.484375 1.28125q0.5625 0.90625 0.5625 2.015625q0 1.40625 -0.921875 2.390625q-0.921875 0.96875 -2.84375 1.234375q0.703125 0.34375 1.078125 0.671875q0.765625 0.703125 1.453125 1.765625l2.328125 3.640625l-2.21875 0l-1.765625 -2.78125q-0.78125 -1.203125 -1.28125 -1.828125q-0.5 -0.640625 -0.90625 -0.890625q-0.390625 -0.265625 -0.796875 -0.359375q-0.296875 -0.078125 -0.984375 -0.078125l-2.046875 0l0 5.9375l-1.765625 0zm1.765625 -7.453125l3.796875 0q1.21875 0 1.890625 -0.25q0.6875 -0.265625 1.046875 -0.8125q0.359375 -0.546875 0.359375 -1.1875q0 -0.953125 -0.6875 -1.5625q-0.6875 -0.609375 -2.1875 -0.609375l-4.21875 0l0 4.421875zm11.972946 7.453125l0 -13.359375l1.765625 0l0 13.359375l-1.765625 0zm4.886429 0l0 -13.359375l5.046875 0q1.328125 0 2.03125 0.125q0.96875 0.171875 1.640625 0.640625q0.671875 0.453125 1.078125 1.28125q0.40625 0.828125 0.40625 1.828125q0 1.703125 -1.09375 2.890625q-1.078125 1.171875 -3.921875 1.171875l-3.421875 0l0 5.421875l-1.765625 0zm1.765625 -7.0l3.453125 0q1.71875 0 2.4375 -0.640625q0.71875 -0.640625 0.71875 -1.796875q0 -0.84375 -0.421875 -1.4375q-0.421875 -0.59375 -1.125 -0.78125q-0.4375 -0.125 -1.640625 -0.125l-3.421875 0l0 4.78125zm14.084198 7.0l0 -11.78125l-4.40625 0l0 -1.578125l10.578125 0l0 1.578125l-4.40625 0l0 11.78125l-1.765625 0z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m101.91863 439.16797l64.8189 0l0 49.007874l-64.8189 0z" fill-rule="evenodd"/><path fill="#000000" d="m110.88738 466.08798l5.125 -13.359375l1.90625 0l5.46875 13.359375l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6875 -0.9375 -2.765625q-0.265625 1.28125 -0.71875 2.546875l-1.46875 3.921875zm10.052948 5.484375l0 -13.359375l5.0468826 0q1.328125 0 2.03125 0.125q0.96875 0.171875 1.640625 0.640625q0.671875 0.453125 1.078125 1.28125q0.40625 0.828125 0.40625 1.828125q0 1.703125 -1.09375 2.890625q-1.078125 1.171875 -3.921875 1.171875l-3.4218826 0l0 5.421875l-1.765625 0zm1.765625 -7.0l3.4531326 0q1.71875 0 2.4375 -0.640625q0.71875 -0.640625 0.71875 -1.796875q0 -0.84375 -0.421875 -1.4375q-0.421875 -0.59375 -1.125 -0.78125q-0.4375 -0.125 -1.640625 -0.125l-3.4218826 0l0 4.78125zm10.974831 7.0l0 -13.359375l1.765625 0l0 13.359375l-1.765625 0z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m17.824146 495.0105l143.84253 0l0 49.007874l-143.84253 0z" fill-rule="evenodd"/><path fill="#000000" d="m26.792896 521.9305l5.125 -13.3593445l1.90625 0l5.46875 13.3593445l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6874695 -0.9375 -2.7655945q-0.265625 1.28125 -0.71875 2.5468445l-1.46875 3.921875zm10.037323 5.484375l0 -13.3593445l1.8125 0l7.015625 10.4843445l0 -10.4843445l1.6875 0l0 13.3593445l-1.8125 0l-7.015625 -10.4999695l0 10.4999695l-1.6875 0zm19.738571 -5.234375l0 -1.578125l5.656254 0l0 4.953125q-1.296875 1.046875 -2.6875038 1.578125q-1.375 0.515625 -2.84375 0.515625q-1.96875 0 -3.578125 -0.84375q-1.609375 -0.84375 -2.421875 -2.4375q-0.8125 -1.59375 -0.8125 -3.5625q0 -1.953125 0.8125 -3.6405945q0.8125 -1.6875 2.34375 -2.5q1.53125 -0.828125 3.515625 -0.828125q1.453125 0 2.625 0.46875q1.1718788 0.46875 1.8281288 1.3125q0.671875 0.828125 1.015625 2.1718445l-1.59375 0.4375q-0.2968788 -1.0155945 -0.7500038 -1.5937195q-0.4375 -0.59375 -1.265625 -0.9375q-0.828125 -0.34375 -1.84375 -0.34375q-1.203125 0 -2.09375 0.375q-0.890625 0.359375 -1.4375 0.96875q-0.53125 0.59375 -0.828125 1.3124695q-0.515625 1.234375 -0.515625 2.6875q0 1.78125 0.609375 2.984375q0.625 1.203125 1.796875 1.796875q1.171875 0.578125 2.5 0.578125q1.140625 0 2.234375 -0.4375q1.09375 -0.453125 1.6562538 -0.953125l0 -2.484375l-3.9218788 0zm17.027058 -8.1249695l1.765625 0l0 7.7187195q0 2.015625 -0.453125 3.203125q-0.453125 1.1875 -1.640625 1.9375q-1.1875 0.734375 -3.125 0.734375q-1.875 0 -3.078125 -0.640625q-1.1875 -0.65625 -1.703125 -1.875q-0.5 -1.234375 -0.5 -3.359375l0 -7.7187195l1.765625 0l0 7.7187195q0 1.734375 0.3125 2.5625q0.328125 0.8125 1.109375 1.265625q0.796875 0.453125 1.9375 0.453125q1.953125 0 2.78125 -0.890625q0.828125 -0.890625 0.828125 -3.390625l0 -7.7187195zm4.629196 13.3593445l0 -13.3593445l1.78125 0l0 11.7812195l6.5625 0l0 1.578125l-8.34375 0zm8.985092 0l5.125 -13.3593445l1.90625 0l5.46875 13.3593445l-2.015625 0l-1.546875 -4.046875l-5.59375 0l-1.46875 4.046875l-1.875 0zm3.859375 -5.484375l4.53125 0l-1.40625 -3.703125q-0.625 -1.6874695 -0.9375 -2.7655945q-0.265625 1.28125 -0.71875 2.5468445l-1.46875 3.921875zm10.084198 5.484375l0 -13.3593445l5.921875 0q1.78125 0 2.703125 0.359375q0.9375 0.359375 1.484375 1.28125q0.5625 0.90625 0.5625 2.0155945q0 1.40625 -0.921875 2.390625q-0.921875 0.96875 -2.84375 1.234375q0.703125 0.34375 1.078125 0.671875q0.765625 0.703125 1.453125 1.765625l2.328125 3.640625l-2.21875 0l-1.765625 -2.78125q-0.78125 -1.203125 -1.28125 -1.828125q-0.5 -0.640625 -0.90625 -0.890625q-0.390625 -0.265625 -0.796875 -0.359375q-0.296875 -0.078125 -0.984375 -0.078125l-2.046875 0l0 5.9375l-1.765625 0zm1.765625 -7.453125l3.796875 0q1.21875 0 1.890625 -0.25q0.6875 -0.265625 1.046875 -0.8125q0.359375 -0.546875 0.359375 -1.1875q0 -0.9530945 -0.6875 -1.5624695q-0.6875 -0.609375 -2.1875 -0.609375l-4.21875 0l0 4.4218445zm11.926071 7.453125l0 -1.875l1.875 0l0 1.875l-1.875 0zm4.027054 -3.796875l1.59375 -0.21875q0.078125 1.53125 0.578125 2.109375q0.515625 0.5625 1.421875 0.5625q0.65625 0 1.140625 -0.296875q0.484375 -0.3125 0.6562424 -0.828125q0.1875 -0.53125 0.1875 -1.6875l0 -9.2030945l1.765625 0l0 9.1093445q0 1.671875 -0.40625 2.59375q-0.40625 0.921875 -1.28125 1.40625q-0.8749924 0.484375 -2.0624924 0.484375q-1.75 0 -2.6875 -1.015625q-0.9375 -1.015625 -0.90625 -3.015625zm9.640617 -0.5l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -0.9999695 0.578125 -1.8749695q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.0937195l-1.6875 0.125q-0.140625 -1.2655945 -0.9375 -1.9062195q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.7187195 0.53125 1.1718445q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m8.459317 556.9449l174.07874 0l0 49.007874l-174.07874 0z" fill-rule="evenodd"/><path fill="#000000" d="m18.959318 583.86487l0 -13.359375l1.765625 0l0 5.484375l6.9375 0l0 -5.484375l1.765625 0l0 13.359375l-1.765625 0l0 -6.296875l-6.9375 0l0 6.296875l-1.765625 0zm16.816694 0l0 -11.78125l-4.406248 0l0 -1.578125l10.578123 0l0 1.578125l-4.40625 0l0 11.78125l-1.765625 0zm7.942856 0l0 -13.359375l2.65625 0l3.15625 9.453125q0.4375 1.328125 0.640625 1.984375q0.234375 -0.734375 0.703125 -2.140625l3.203125 -9.296875l2.375 0l0 13.359375l-1.703125 0l0 -11.171875l-3.875 11.171875l-1.59375 0l-3.859375 -11.375l0 11.375l-1.703125 0zm15.509552 0l0 -13.359375l1.78125 0l0 11.78125l6.562504 0l0 1.578125l-8.343754 0zm9.797596 -3.5l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm14.777771 3.734375l3.875 -13.8125l1.3125 0l-3.859375 13.8125l-1.328125 0zm21.335358 -4.921875l1.765625 0.453125q-0.5625 2.171875 -2.0 3.328125q-1.4375 1.140625 -3.53125 1.140625q-2.15625 0 -3.515625 -0.875q-1.34375 -0.890625 -2.0625 -2.546875q-0.703125 -1.671875 -0.703125 -3.59375q0 -2.078125 0.796875 -3.625q0.796875 -1.5625 2.265625 -2.359375q1.484375 -0.8125 3.25 -0.8125q2.0 0 3.359375 1.015625q1.375 1.015625 1.90625 2.875l-1.734375 0.40625q-0.46875 -1.453125 -1.359375 -2.109375q-0.875 -0.671875 -2.203125 -0.671875q-1.546875 0 -2.578125 0.734375q-1.03125 0.734375 -1.453125 1.984375q-0.421875 1.234375 -0.421875 2.5625q0 1.703125 0.5 2.96875q0.5 1.265625 1.546875 1.90625q1.046875 0.625 2.265625 0.625q1.484375 0 2.515625 -0.859375q1.03125 -0.859375 1.390625 -2.546875zm3.3479462 0.390625l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -1.0 0.578125 -1.875q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.09375l-1.6875 0.125q-0.140625 -1.265625 -0.9375 -1.90625q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.71875 0.53125 1.171875q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625zm12.443573 0l1.65625 -0.140625q0.125 1.0 0.546875 1.640625q0.4375 0.640625 1.34375 1.046875q0.921875 0.390625 2.0625 0.390625q1.0 0 1.78125 -0.296875q0.78125 -0.296875 1.15625 -0.8125q0.375 -0.53125 0.375 -1.15625q0 -0.625 -0.375 -1.09375q-0.359375 -0.46875 -1.1875 -0.796875q-0.546875 -0.203125 -2.390625 -0.640625q-1.828125 -0.453125 -2.5625 -0.84375q-0.96875 -0.5 -1.4375 -1.234375q-0.46875 -0.75 -0.46875 -1.671875q0 -1.0 0.578125 -1.875q0.578125 -0.890625 1.671875 -1.34375q1.109375 -0.453125 2.453125 -0.453125q1.484375 0 2.609375 0.484375q1.140625 0.46875 1.75 1.40625q0.609375 0.921875 0.65625 2.09375l-1.6875 0.125q-0.140625 -1.265625 -0.9375 -1.90625q-0.78125 -0.65625 -2.3125 -0.65625q-1.609375 0 -2.34375 0.59375q-0.734375 0.59375 -0.734375 1.421875q0 0.71875 0.53125 1.171875q0.5 0.46875 2.65625 0.96875q2.15625 0.484375 2.953125 0.84375q1.171875 0.53125 1.71875 1.359375q0.5625 0.828125 0.5625 1.90625q0 1.0625 -0.609375 2.015625q-0.609375 0.9375 -1.75 1.46875q-1.140625 0.515625 -2.578125 0.515625q-1.8125 0 -3.046875 -0.53125q-1.21875 -0.53125 -1.921875 -1.59375q-0.6875 -1.0625 -0.71875 -2.40625zm12.381073 0.765625l1.640625 -0.21875q0.28125 1.40625 0.953125 2.015625q0.6875 0.609375 1.65625 0.609375q1.15625 0 1.953125 -0.796875q0.796875 -0.796875 0.796875 -1.984375q0 -1.125 -0.734375 -1.859375q-0.734375 -0.734375 -1.875 -0.734375q-0.46875 0 -1.15625 0.171875l0.1875 -1.4375q0.15625 0.015625 0.265625 0.015625q1.046875 0 1.875 -0.546875q0.84375 -0.546875 0.84375 -1.671875q0 -0.90625 -0.609375 -1.5q-0.609375 -0.59375 -1.578125 -0.59375q-0.953125 0 -1.59375 0.609375q-0.640625 0.59375 -0.8125 1.796875l-1.640625 -0.296875q0.296875 -1.640625 1.359375 -2.546875q1.0625 -0.90625 2.65625 -0.90625q1.09375 0 2.0 0.46875q0.921875 0.46875 1.40625 1.28125q0.5 0.8125 0.5 1.71875q0 0.859375 -0.46875 1.578125q-0.46875 0.703125 -1.375 1.125q1.1875 0.28125 1.84375 1.140625q0.65625 0.859375 0.65625 2.15625q0 1.734375 -1.28125 2.953125q-1.265625 1.21875 -3.21875 1.21875q-1.765625 0 -2.921875 -1.046875q-1.15625 -1.046875 -1.328125 -2.71875z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m735.2126 169.85564l57.448853 0l0 49.007874l-57.448853 0z" fill-rule="evenodd"/><path fill="#000000" d="m747.50946 189.54126q-1.015625 -0.375 -1.515625 -1.0625q-0.484375 -0.703125 -0.484375 -1.671875q0 -1.453125 1.046875 -2.4375q1.046875 -1.0 2.78125 -1.0q1.75 0 2.8125 1.015625q1.078125 1.015625 1.078125 2.46875q0 0.9375 -0.5 1.625q-0.484375 0.6875 -1.46875 1.0625q1.21875 0.390625 1.859375 1.28125q0.65625 0.890625 0.65625 2.140625q0 1.703125 -1.21875 2.875q-1.21875 1.171875 -3.1875 1.171875q-1.984375 0 -3.203125 -1.171875q-1.203125 -1.171875 -1.203125 -2.921875q0 -1.3125 0.65625 -2.1875q0.671875 -0.875 1.890625 -1.1875zm-0.328125 -2.78125q0 0.9375 0.609375 1.546875q0.609375 0.59375 1.59375 0.59375q0.9375 0 1.546875 -0.59375q0.609375 -0.59375 0.609375 -1.453125q0 -0.90625 -0.625 -1.515625q-0.625 -0.625 -1.5625 -0.625q-0.9375 0 -1.5625 0.609375q-0.609375 0.59375 -0.609375 1.4375zm-0.53125 6.15625q0 0.703125 0.328125 1.359375q0.34375 0.65625 1.0 1.015625q0.65625 0.359375 1.40625 0.359375q1.171875 0 1.9375 -0.75q0.765625 -0.75 0.765625 -1.921875q0 -1.1875 -0.796875 -1.953125q-0.78125 -0.78125 -1.953125 -0.78125q-1.15625 0 -1.921875 0.765625q-0.765625 0.765625 -0.765625 1.90625zm8.719482 0.359375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672607 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m774.76117 248.85826l57.44879 0l0 49.00789l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m784.7768 272.6845l1.578125 -0.140625q0.203125 1.109375 0.765625 1.609375q0.5625 0.5 1.453125 0.5q0.75 0 1.3125 -0.34375q0.578125 -0.34375 0.9375 -0.921875q0.375 -0.578125 0.609375 -1.5625q0.25 -0.984375 0.25 -2.0q0 -0.109375 0 -0.328125q-0.5 0.78125 -1.359375 1.265625q-0.84375 0.484375 -1.828125 0.484375q-1.671875 0 -2.8125 -1.203125q-1.140625 -1.203125 -1.140625 -3.171875q0 -2.03125 1.1875 -3.265625q1.203125 -1.234375 3.0 -1.234375q1.3125 0 2.390625 0.703125q1.078125 0.703125 1.640625 2.0q0.5625 1.296875 0.5625 3.75q0 2.5625 -0.5625 4.078125q-0.5625 1.515625 -1.65625 2.3125q-1.09375 0.796875 -2.578125 0.796875q-1.5625 0 -2.5625 -0.875q-0.984375 -0.875 -1.1875 -2.453125zm6.71875 -5.890625q0 -1.40625 -0.75 -2.234375q-0.75 -0.828125 -1.8125 -0.828125q-1.09375 0 -1.90625 0.890625q-0.8125 0.890625 -0.8125 2.3125q0 1.28125 0.765625 2.078125q0.78125 0.796875 1.90625 0.796875q1.140625 0 1.875 -0.796875q0.734375 -0.796875 0.734375 -2.21875zm3.4226074 5.484375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672546 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m726.76904 298.86877l57.44879 0l0 49.007874l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m739.0659 318.55438q-1.015625 -0.375 -1.515625 -1.0625q-0.484375 -0.703125 -0.484375 -1.671875q0 -1.453125 1.046875 -2.4375q1.046875 -1.0 2.78125 -1.0q1.75 0 2.8125 1.015625q1.078125 1.015625 1.078125 2.46875q0 0.9375 -0.5 1.625q-0.484375 0.6875 -1.46875 1.0625q1.21875 0.390625 1.859375 1.28125q0.65625 0.890625 0.65625 2.140625q0 1.703125 -1.21875 2.875q-1.21875 1.171875 -3.1875 1.171875q-1.984375 0 -3.203125 -1.171875q-1.203125 -1.171875 -1.203125 -2.921875q0 -1.3125 0.65625 -2.1875q0.671875 -0.875 1.890625 -1.1875zm-0.328125 -2.78125q0 0.9375 0.609375 1.546875q0.609375 0.59375 1.59375 0.59375q0.9375 0 1.546875 -0.59375q0.609375 -0.59375 0.609375 -1.453125q0 -0.90625 -0.625 -1.515625q-0.625 -0.625 -1.5625 -0.625q-0.9375 0 -1.5625 0.609375q-0.609375 0.59375 -0.609375 1.4375zm-0.53125 6.15625q0 0.703125 0.328125 1.359375q0.34375 0.65625 1.0 1.015625q0.65625 0.359375 1.40625 0.359375q1.171875 0 1.9375 -0.75q0.765625 -0.75 0.765625 -1.921875q0 -1.1875 -0.796875 -1.953125q-0.78125 -0.78125 -1.953125 -0.78125q-1.15625 0 -1.921875 0.765625q-0.765625 0.765625 -0.765625 1.90625zm8.719482 0.359375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672546 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m774.76117 361.01312l57.44879 0l0 49.007874l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m784.7768 384.8394l1.578125 -0.140625q0.203125 1.109375 0.765625 1.609375q0.5625 0.5 1.453125 0.5q0.75 0 1.3125 -0.34375q0.578125 -0.34375 0.9375 -0.921875q0.375 -0.578125 0.609375 -1.5625q0.25 -0.984375 0.25 -2.0q0 -0.109375 0 -0.328125q-0.5 0.78125 -1.359375 1.265625q-0.84375 0.484375 -1.828125 0.484375q-1.671875 0 -2.8125 -1.203125q-1.140625 -1.203125 -1.140625 -3.171875q0 -2.03125 1.1875 -3.265625q1.203125 -1.234375 3.0 -1.234375q1.3125 0 2.390625 0.703125q1.078125 0.703125 1.640625 2.0q0.5625 1.296875 0.5625 3.75q0 2.5625 -0.5625 4.078125q-0.5625 1.515625 -1.65625 2.3125q-1.09375 0.796875 -2.578125 0.796875q-1.5625 0 -2.5625 -0.875q-0.984375 -0.875 -1.1875 -2.453125zm6.71875 -5.890625q0 -1.40625 -0.75 -2.234375q-0.75 -0.828125 -1.8125 -0.828125q-1.09375 0 -1.90625 0.890625q-0.8125 0.890625 -0.8125 2.3125q0 1.28125 0.765625 2.078125q0.78125 0.796875 1.90625 0.796875q1.140625 0 1.875 -0.796875q0.734375 -0.796875 0.734375 -2.21875zm3.4226074 5.484375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672546 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m726.76904 437.0118l57.44879 0l0 49.007874l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m739.0659 456.69745q-1.015625 -0.375 -1.515625 -1.0625q-0.484375 -0.703125 -0.484375 -1.671875q0 -1.453125 1.046875 -2.4375q1.046875 -1.0 2.78125 -1.0q1.75 0 2.8125 1.015625q1.078125 1.015625 1.078125 2.46875q0 0.9375 -0.5 1.625q-0.484375 0.6875 -1.46875 1.0625q1.21875 0.390625 1.859375 1.28125q0.65625 0.890625 0.65625 2.140625q0 1.703125 -1.21875 2.875q-1.21875 1.171875 -3.1875 1.171875q-1.984375 0 -3.203125 -1.171875q-1.203125 -1.171875 -1.203125 -2.921875q0 -1.3125 0.65625 -2.1875q0.671875 -0.875 1.890625 -1.1875zm-0.328125 -2.78125q0 0.9375 0.609375 1.546875q0.609375 0.59375 1.59375 0.59375q0.9375 0 1.546875 -0.59375q0.609375 -0.59375 0.609375 -1.453125q0 -0.90625 -0.625 -1.515625q-0.625 -0.625 -1.5625 -0.625q-0.9375 0 -1.5625 0.609375q-0.609375 0.59375 -0.609375 1.4375zm-0.53125 6.15625q0 0.703125 0.328125 1.359375q0.34375 0.65625 1.0 1.015625q0.65625 0.359375 1.40625 0.359375q1.171875 0 1.9375 -0.75q0.765625 -0.75 0.765625 -1.921875q0 -1.1875 -0.796875 -1.953125q-0.78125 -0.78125 -1.953125 -0.78125q-1.15625 0 -1.921875 0.765625q-0.765625 0.765625 -0.765625 1.90625zm8.719482 0.359375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672546 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m719.9974 493.0538l57.44879 0l0 49.007904l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m732.29425 512.73944q-1.015625 -0.375 -1.515625 -1.0625q-0.484375 -0.703125 -0.484375 -1.671875q0 -1.453125 1.046875 -2.4375q1.046875 -1.0 2.78125 -1.0q1.75 0 2.8125 1.015625q1.078125 1.015625 1.078125 2.46875q0 0.9375 -0.5 1.625q-0.484375 0.6875 -1.46875 1.0625q1.21875 0.390625 1.859375 1.28125q0.65625 0.890625 0.65625 2.140625q0 1.703125 -1.21875 2.875q-1.21875 1.171875 -3.1875 1.171875q-1.984375 0 -3.203125 -1.171875q-1.203125 -1.171875 -1.203125 -2.921875q0 -1.3125 0.65625 -2.1875q0.671875 -0.875 1.890625 -1.1875zm-0.328125 -2.78125q0 0.9375 0.609375 1.546875q0.609375 0.59375 1.59375 0.59375q0.9375 0 1.546875 -0.59375q0.609375 -0.59375 0.609375 -1.453125q0 -0.90625 -0.625 -1.515625q-0.625 -0.625 -1.5625 -0.625q-0.9375 0 -1.5625 0.609375q-0.609375 0.59375 -0.609375 1.4375zm-0.53125 6.15625q0 0.703125 0.328125 1.359375q0.34375 0.65625 1.0 1.015625q0.65625 0.359375 1.40625 0.359375q1.171875 0 1.9375 -0.75q0.765625 -0.75 0.765625 -1.921875q0 -1.1875 -0.796875 -1.953125q-0.78125 -0.78125 -1.953125 -0.78125q-1.15625 0 -1.921875 0.765625q-0.765625 0.765625 -0.765625 1.90625zm8.719482 0.359375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672546 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/><path fill="#000000" fill-opacity="0.0" d="m781.6352 552.6903l57.44879 0l0 49.007874l-57.44879 0z" fill-rule="evenodd"/><path fill="#000000" d="m791.6508 576.51654l1.578125 -0.140625q0.203125 1.109375 0.765625 1.609375q0.5625 0.5 1.453125 0.5q0.75 0 1.3125 -0.34375q0.578125 -0.34375 0.9375 -0.921875q0.375 -0.578125 0.609375 -1.5625q0.25 -0.984375 0.25 -2.0q0 -0.109375 0 -0.328125q-0.5 0.78125 -1.359375 1.265625q-0.84375 0.484375 -1.828125 0.484375q-1.671875 0 -2.8125 -1.203125q-1.140625 -1.203125 -1.140625 -3.171875q0 -2.03125 1.1875 -3.265625q1.203125 -1.234375 3.0 -1.234375q1.3125 0 2.390625 0.703125q1.078125 0.703125 1.640625 2.0q0.5625 1.296875 0.5625 3.75q0 2.5625 -0.5625 4.078125q-0.5625 1.515625 -1.65625 2.3125q-1.09375 0.796875 -2.578125 0.796875q-1.5625 0 -2.5625 -0.875q-0.984375 -0.875 -1.1875 -2.453125zm6.71875 -5.890625q0 -1.40625 -0.75 -2.234375q-0.75 -0.828125 -1.8125 -0.828125q-1.09375 0 -1.90625 0.890625q-0.8125 0.890625 -0.8125 2.3125q0 1.28125 0.765625 2.078125q0.78125 0.796875 1.90625 0.796875q1.140625 0 1.875 -0.796875q0.734375 -0.796875 0.734375 -2.21875zm3.4225464 5.484375l1.71875 -0.140625q0.1875 1.25 0.875 1.890625q0.703125 0.625 1.6875 0.625q1.1875 0 2.0 -0.890625q0.828125 -0.890625 0.828125 -2.359375q0 -1.40625 -0.796875 -2.21875q-0.78125 -0.8125 -2.0625 -0.8125q-0.78125 0 -1.421875 0.359375q-0.640625 0.359375 -1.0 0.9375l-1.546875 -0.203125l1.296875 -6.859375l6.640625 0l0 1.5625l-5.328125 0l-0.71875 3.59375q1.203125 -0.84375 2.515625 -0.84375q1.75 0 2.953125 1.21875q1.203125 1.203125 1.203125 3.109375q0 1.8125 -1.046875 3.140625q-1.296875 1.625 -3.515625 1.625q-1.8125 0 -2.96875 -1.015625q-1.15625 -1.03125 -1.3125 -2.71875zm10.672607 -6.640625q0 -1.4375 0.71875 -2.4375q0.71875 -1.0 2.09375 -1.0q1.25 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.84375 2.609375q-0.828125 0.921875 -2.046875 0.921875q-1.203125 0 -2.015625 -0.90625q-0.8125 -0.90625 -0.8125 -2.71875zm2.859375 -2.3125q-0.609375 0 -1.015625 0.53125q-0.40625 0.53125 -0.40625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.015625 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.40625 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125zm0 12.9375l7.3125 -14.0625l1.328125 0l-7.28125 14.0625l-1.359375 0zm5.78125 -3.625q0 -1.4375 0.71875 -2.421875q0.71875 -1.0 2.09375 -1.0q1.265625 0 2.078125 0.90625q0.828125 0.890625 0.828125 2.625q0 1.6875 -0.828125 2.609375q-0.828125 0.90625 -2.0625 0.90625q-1.21875 0 -2.03125 -0.90625q-0.796875 -0.90625 -0.796875 -2.71875zm2.859375 -2.296875q-0.625 0 -1.03125 0.53125q-0.390625 0.53125 -0.390625 1.9375q0 1.28125 0.40625 1.8125q0.40625 0.515625 1.015625 0.515625q0.625 0 1.03125 -0.515625q0.40625 -0.53125 0.40625 -1.9375q0 -1.296875 -0.421875 -1.8125q-0.40625 -0.53125 -1.015625 -0.53125z" fill-rule="nonzero"/></g></svg>
-
-		</div>
-
-
-	</div>
-
-
-
-</div>
-<!--- Emoji Section -->
-<button type="button" class="btn btn-outline-success fun pro" data-toggle="collapse" data-target="#emoji">Click for Fun!</button>
-<div class="collapse" id="emoji">
-	<div class="container-fluid padding">
-		<div class="row text-center">
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="gif/panda.gif" alt="panda">
-
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="gif/chicken.gif" alt="chicken">
-
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="gif/poo.gif" alt="poo">
-
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="gif/unicorn.gif" alt="unicorn">
-
-			</div>
-
-		</div>
-
-	</div>
-
-</div>
-
-
-
-<!--- Emoji Section -->
 
 
 <!--- Google Map -->
@@ -543,7 +533,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 	<section class="section pb-5">
 
 	  <!--Section heading-->
-	  <h2 class="section-heading h1 pt-4">Contact us</h2>
+	  <h2>Contact us</h2>
 		<br><br>
 	  <!--Section description-->
 	  <p class="section-description pb-4">Use the form below to drop us an Email ~ Our phones work too. <i class="far fa-smile-beam" style="color: #000;"></i></p>
@@ -639,7 +629,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 	          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
 						<br><br><br>
 	          <p class="section-description">websitekaliinc@gmail.com</p>
-	          <p class="section-description">kevmatite@gmail.com</p>
+	          <p class="section-description">info@websitekali.co.ke</p>
 	        </div>
 	      </div>
 
@@ -653,7 +643,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 
 	<div class="col-12">
 	<hr class="light">
-	<h6 class="section-description">&copy; 2019 All Rights Reserved.: <a href="https://www.websitekali.com">Websitekali.com</a></h6>
+	<h6 class="section-description">&copy; 2019 All Rights Reserved.: <a href="https://www.websitekali.com">Websitekali.co.ke</a></h6>
 
 </div>
 
@@ -665,6 +655,7 @@ Website Kali Inc provides digital business solution that makes it unique in the 
 <!-- Return to Top -->
 <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
 <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top pro" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fas fa-angle-double-up" style="opacity: 0.7;"></i></a>
+</div>
 </div>
 
 
