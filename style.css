@@ -172,7 +172,7 @@ ul {
 .pro{
   margin-top: 5em;
   opacity: 0;
-  transform: translateY(200px);
+  transform: translateY(100px);
   transition: all 1s ease-out;
 }
 .tofauti{
