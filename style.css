@@ -386,6 +386,20 @@ h2::after {
 
 /* End of Carousel Section --*/
 
+
+/*-- Emoji Section Styling --*/
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2em;
+}
+.gif{
+  width: 100%;
+}
+/* -- End of Emoji Section --*/
+
+
+
 /* -- Footer Begins Here -- */
 .map-container-6{
 overflow:hidden;

@@ -95,6 +95,15 @@ $('.pro').each(function(){
 // End of Loop
 
 
+
+//popover Buttons
+// popovers Initialization
+$(function () {
+$('[data-toggle="popover"]').popover()
+})
+
+
+
 // ===== Scroll to Top ====
 $(window).scroll(function () {
        if ($(this).scrollTop() > 50) {
@@ -113,14 +122,6 @@ $(window).scroll(function () {
    });
 
    $('#back-to-top').tooltip('show');
-
-
-
-//popover Buttons
-// popovers Initialization
-$(function () {
-$('[data-toggle="popover"]').popover()
-})
 
 
 
