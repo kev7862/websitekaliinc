@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 // Typewriter effect section.
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -53,11 +54,13 @@ var TxtType = function(el, toRotate, period) {
        // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000; color: #000}";
 
         document.body.appendChild(css);
 
     };
+
+
 
     // greensock
     // Hover
@@ -91,13 +94,6 @@ $('.pro').each(function(){
 });
 // End of Loop
 
-//popover Buttons
-// popovers Initialization
-$(function () {
-$('[data-toggle="popover"]').popover()
-})
-
-
 
 // ===== Scroll to Top ====
 $(window).scroll(function () {
@@ -117,5 +113,16 @@ $(window).scroll(function () {
    });
 
    $('#back-to-top').tooltip('show');
+
+
+
+//popover Buttons
+// popovers Initialization
+$(function () {
+$('[data-toggle="popover"]').popover()
+})
+
+
+
 
 });

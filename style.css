@@ -1,12 +1,17 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body{
 }
 * { text-align: center; color:#fff; text-decoration: none;}
 
-.bg-img{
+/*.bg-img{
   background: url('images/puppy-love_4460x4460.jpg') no-repeat center center /cover ;
-  height: 100vh;
+  height: 100vh;*/
+}
+
+img{
+  max-width: 100%;
 }
 .navbar{
   color: #fff;
@@ -37,15 +42,19 @@ body{
 
 .display-4{
   font-family: 'Playfair Display SC', serif;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #000;
 
 }
 .writer{
-  padding-top: 50px;
+  padding-top: 40px;
   font-family: 'Patrick Hand', cursive;
 }
 .brand{
   margin-bottom: 0;
+}
+#choraa{
+  color: #000;
 }
 /*-- Pricing Section Header -- */
 .planner{
@@ -619,7 +628,7 @@ label{
 /* -- About Us Section -- */
 .parallax {
   /* The image used */
-  background-image: url("images/indoor-brick-wall-texture_4460x4460.jpg");
+  background-image: url("images/green-orange-and-yellow-ink_4460x4460.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -790,6 +799,9 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+
 
 
 
