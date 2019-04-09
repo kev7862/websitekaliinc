@@ -47,7 +47,7 @@ img{
 
 }
 .writer{
-  padding-top: 40px;
+  padding-top: 20px;
   font-family: 'Patrick Hand', cursive;
 }
 .brand{
@@ -389,12 +389,12 @@ h2::after {
 
 /*-- Emoji Section Styling --*/
 .fun{
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 2rem;
   margin-top: 2em;
 }
 .gif{
-  width: 100%;
+  max-width: 100%;
 }
 /* -- End of Emoji Section --*/
 
