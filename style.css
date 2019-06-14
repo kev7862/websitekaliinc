@@ -42,12 +42,13 @@ img{
 
 .display-4{
   font-family: 'Playfair Display SC', serif;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   color: #000;
+  font-size: 4em;
 
 }
 .writer{
-  padding-top: 20px;
+  padding-top: 1em;
   font-family: 'Patrick Hand', cursive;
 }
 .brand{
