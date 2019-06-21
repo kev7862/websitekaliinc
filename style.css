@@ -6,7 +6,7 @@ body{
 * { text-align: center; color:#fff; text-decoration: none;}
 
 /*.bg-img{
-  background: url('images/puppy-love_4460x4460.jpg') no-repeat center center /cover ;
+  background: url('images/websitekali-jobs.jpg') no-repeat center center /cover ;
   height: 100vh;*/
 }
 
@@ -182,7 +182,7 @@ ul {
 .pro{
   margin-top: 5em;
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateY(-20px);
   transition: all 1s ease-out;
 }
 .tofauti{
