@@ -390,12 +390,12 @@ h2::after {
 
 /*-- Emoji Section Styling --*/
 .fun{
-  max-width: 100%;
+  width: 50%;
   margin-bottom: 2rem;
   margin-top: 2em;
 }
 .gif{
-  max-width: 100%;
+  width: 100%;
 }
 /* -- End of Emoji Section --*/
 
@@ -643,7 +643,7 @@ label{
 /* -- About Us Section -- */
 .parallax {
   /* The image used */
-  background-image: url("images/green-orange-and-yellow-ink_4460x4460.jpg");
+  background-image: url("images/adidas-kenya-web-design.jpg");
 
   /* Set a specific height */
   min-height: 500px;
