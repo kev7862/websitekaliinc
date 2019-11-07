@@ -72,7 +72,7 @@ var build = document.getElementsByClassName('build');
 
 
 //Easing
-TweenMax.to(build, 1, {y: 50, ease:Bounce.easeOut, delay:1.5});
+TweenMax.to(build, 1, {y: 20, ease:Bounce.easeOut, delay:1.5});
 TweenMax.from(navbarResponsive, 1, {x: 200, autoAlpha:1});
 
 // ScrollMagic
