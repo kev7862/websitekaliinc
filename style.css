@@ -18,6 +18,11 @@ img{
   background-color: none;
 }
 
+.logokali{
+  width: 200px;
+  height: 200px;
+}
+
 /*-- Social Media Styling -- */
 
 .fa-facebook{
@@ -643,7 +648,7 @@ label{
 /* -- About Us Section -- */
 .parallax {
   /* The image used */
-  background-image: url("images/adidas-kenya-web-design.jpg");
+  background-image: url("images/Website-development-and-graphics-design-nairobi-websitekali.co.ke.jpg");
 
   /* Set a specific height */
   min-height: 500px;
